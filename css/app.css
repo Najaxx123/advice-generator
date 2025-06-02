@@ -1,0 +1,44 @@
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: #202733;
+}
+
+main {
+    background-color: #313A48;
+}
+
+.advice-id {
+  font-weight: 800;
+  font-size: 13px;
+  text-align: center;
+  color: #53FFAA;
+}
+
+.advice {
+  font-weight: 800;
+  font-size: 28px;
+  text-align: center;
+  color: #CEE3E9;
+}
+
+.randomize-btn {
+    background-color: #53FFAA;
+    height: 64px;
+    width: 64px;
+    border-radius: 30px;
+    margin: auto;
+    box-shadow: #53FFAA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.randomize-btn:hover {
+    box-shadow: 0px 0px 40px 0px #53FFAA;
+}
+
+.stop-btn {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
