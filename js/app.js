@@ -1,7 +1,12 @@
 const adviseZone = document.querySelector(".advice")
 const adviceId = document.querySelector(".advice-id")
 
-fetch("https://api.adviceslip.com/advice")
+let intervalId
+
+intervalId = setInterval(fetchAdvice, 10000);
+
+function fetchAdvice() {
+    fetch("https://api.adviceslip.com/advice")
 
 .then (function(res) {
     return res.json()
@@ -15,3 +20,7 @@ fetch("https://api.adviceslip.com/advice")
 .catch (function(err) {
     console.log("une erreur est la mon chef" ,err);
 })
+
+}
+
+
